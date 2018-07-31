@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0E3048210078330076399D /* CGPAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E3047210078330076399D /* CGPAViewController.swift */; };
+		FCC560932101089100CAD0EB /* pOpUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC560922101089100CAD0EB /* pOpUpViewController.swift */; };
+		FCC56095210254C300CAD0EB /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC56094210254C300CAD0EB /* GradeViewController.swift */; };
+		FCD92B3120FDF05E007F8CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD92B3020FDF05E007F8CCC /* AppDelegate.swift */; };
+		FCD92B3320FDF05E007F8CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD92B3220FDF05E007F8CCC /* ViewController.swift */; };
+		FCD92B3620FDF05E007F8CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD92B3420FDF05E007F8CCC /* Main.storyboard */; };
+		FCD92B3820FDF060007F8CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD92B3720FDF060007F8CCC /* Assets.xcassets */; };
+		FCD92B3B20FDF060007F8CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD92B3920FDF060007F8CCC /* LaunchScreen.storyboard */; };
+		FCD92B4320FDF42D007F8CCC /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD92B4220FDF42D007F8CCC /* SViewController.swift */; };
+		FCD92B4520FDF43B007F8CCC /* TViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD92B4420FDF43B007F8CCC /* TViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC0E3047210078330076399D /* CGPAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPAViewController.swift; sourceTree = "<group>"; };
+		FCC560922101089100CAD0EB /* pOpUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pOpUpViewController.swift; sourceTree = "<group>"; };
+		FCC56094210254C300CAD0EB /* GradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
+		FCD92B2D20FDF05E007F8CCC /* Comsats GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comsats GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD92B3020FDF05E007F8CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD92B3220FDF05E007F8CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCD92B3520FDF05E007F8CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD92B3720FDF060007F8CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD92B3A20FDF060007F8CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD92B3C20FDF060007F8CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD92B4220FDF42D007F8CCC /* SViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
+		FCD92B4420FDF43B007F8CCC /* TViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD92B2A20FDF05E007F8CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD92B2420FDF05E007F8CCC = {
+			isa = PBXGroup;
+			children = (
+				FCC560922101089100CAD0EB /* pOpUpViewController.swift */,
+				FC0E3047210078330076399D /* CGPAViewController.swift */,
+				FCD92B2F20FDF05E007F8CCC /* Comsats GPA Calculator */,
+				FCD92B2E20FDF05E007F8CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD92B2E20FDF05E007F8CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD92B2D20FDF05E007F8CCC /* Comsats GPA Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD92B2F20FDF05E007F8CCC /* Comsats GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				FCD92B3020FDF05E007F8CCC /* AppDelegate.swift */,
+				FCD92B3220FDF05E007F8CCC /* ViewController.swift */,
+				FCD92B3420FDF05E007F8CCC /* Main.storyboard */,
+				FCD92B4220FDF42D007F8CCC /* SViewController.swift */,
+				FCD92B4420FDF43B007F8CCC /* TViewController.swift */,
+				FCD92B3720FDF060007F8CCC /* Assets.xcassets */,
+				FCC56094210254C300CAD0EB /* GradeViewController.swift */,
+				FCD92B3920FDF060007F8CCC /* LaunchScreen.storyboard */,
+				FCD92B3C20FDF060007F8CCC /* Info.plist */,
+			);
+			path = "Comsats GPA Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD92B2C20FDF05E007F8CCC /* Comsats GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD92B3F20FDF060007F8CCC /* Build configuration list for PBXNativeTarget "Comsats GPA Calculator" */;
+			buildPhases = (
+				FCD92B2920FDF05E007F8CCC /* Sources */,
+				FCD92B2A20FDF05E007F8CCC /* Frameworks */,
+				FCD92B2B20FDF05E007F8CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comsats GPA Calculator";
+			productName = "Comsats GPA Calculator";
+			productReference = FCD92B2D20FDF05E007F8CCC /* Comsats GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD92B2520FDF05E007F8CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "shahzeb yousaf";
+				TargetAttributes = {
+					FCD92B2C20FDF05E007F8CCC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FCD92B2820FDF05E007F8CCC /* Build configuration list for PBXProject "Comsats GPA Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD92B2420FDF05E007F8CCC;
+			productRefGroup = FCD92B2E20FDF05E007F8CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD92B2C20FDF05E007F8CCC /* Comsats GPA Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD92B2B20FDF05E007F8CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD92B3B20FDF060007F8CCC /* LaunchScreen.storyboard in Resources */,
+				FCD92B3820FDF060007F8CCC /* Assets.xcassets in Resources */,
+				FCD92B3620FDF05E007F8CCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD92B2920FDF05E007F8CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD92B3320FDF05E007F8CCC /* ViewController.swift in Sources */,
+				FCC56095210254C300CAD0EB /* GradeViewController.swift in Sources */,
+				FCD92B4320FDF42D007F8CCC /* SViewController.swift in Sources */,
+				FC0E3048210078330076399D /* CGPAViewController.swift in Sources */,
+				FCC560932101089100CAD0EB /* pOpUpViewController.swift in Sources */,
+				FCD92B3120FDF05E007F8CCC /* AppDelegate.swift in Sources */,
+				FCD92B4520FDF43B007F8CCC /* TViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCD92B3420FDF05E007F8CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD92B3520FDF05E007F8CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD92B3920FDF060007F8CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD92B3A20FDF060007F8CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD92B3D20FDF060007F8CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD92B3E20FDF060007F8CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD92B4020FDF060007F8CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7J2AQ3ASG;
+				INFOPLIST_FILE = "Comsats GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developerden.Comsats-GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD92B4120FDF060007F8CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7J2AQ3ASG;
+				INFOPLIST_FILE = "Comsats GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developerden.Comsats-GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD92B2820FDF05E007F8CCC /* Build configuration list for PBXProject "Comsats GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD92B3D20FDF060007F8CCC /* Debug */,
+				FCD92B3E20FDF060007F8CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD92B3F20FDF060007F8CCC /* Build configuration list for PBXNativeTarget "Comsats GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD92B4020FDF060007F8CCC /* Debug */,
+				FCD92B4120FDF060007F8CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD92B2520FDF05E007F8CCC /* Project object */;
+}
